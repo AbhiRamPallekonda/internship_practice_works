@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title> HTML EXERCISE</title>
+        <style>
+            #about
+            {
+                height: 40px;
+                width: 178px;
+            }
+            .form1{
+                justify-content: center;
+            }
+            .submit{
+                height: 40px;
+                width: 330px;
+                margin-left: 30px;
+                border-radius: 5px;
+            }
+            .container1{
+                background-color: rgb(116, 32, 62);
+                margin-left: 450px;
+                margin-right: 450px;
+            }
+            .infotext{
+                color: white;
+                margin-left: 30px;
+            }
+            .body{
+                background-color: rgb(162,43, 86);
+                align-content: center;
+            }
+            .gender{
+              color: white;
+              margin-left: 30px;
+            }   
+            .input{
+              margin-left: 30px;
+            }         
+        </style>
+    </head>
+    <body class="body">
+        <br>
+        <br>
+        <div class="container1">
+            <br>
+            <form class="form1" >
+              <table class="table">
+                <tr>
+                  <td class="tdname"><label class="infotext">Name:</label></td>
+                  <td ><input class="input" type="text" placeholder="your name"></td>
+                </tr>
+                <tr>
+                  <td><label class="infotext">Email:</label></td>
+                  <td><input class="input" type="text" placeholder="your email"></td>
+                </tr>
+                <tr>
+                  <td><label class="infotext">Password:</label></td>
+                  <td><input class="input"  type="password"></td>
+                </tr>
+                <tr>
+                  <td><label class="infotext">Phone Number:</label></td>
+                  <td><input class="input"  type="number" name="phoneNumber"></td>
+                </tr>
+                <tr>
+                  <td><label class="infotext">Gender:</label></td>
+                  <td class="gender">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Male: </label><input type="radio">
+                    <label></label>Female: </label><input type="radio">
+                    <label></label>Other: </label><input type="radio"></td>
+                </tr>
+                <tr>
+                  <td><label class="infotext">language</label></td>
+                  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select>
+                      <option value="">Select language</option>
+                      <option value="English">English</option>
+                      <option value="Telugu">Telugu</option>
+                      <option value="Hindi">Hindi</option>
+                      <option value="Tamil">Tamil</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label class="infotext">Zip Code:</label></td>
+                  <td><input class="input" type="number"></td>
+                </tr>
+                <tr>
+                  <td><label  class="infotext">About:</label></td>
+                  <td><input class="input" id="about" placeholder="Write about yourself..."></textarea></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><br><input type="submit" class="submit" value="Register" /></td>
+                </tr>
+              </table>
+              <br>
+            </ceter>
+            </form>
+          </div>
+    </body>
+</html>

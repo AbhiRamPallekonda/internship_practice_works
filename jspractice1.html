@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>BULB</title>
+    </head>
+    <body>
+        <script>
+            function myFunction() {
+              document.getElementById("demo").innerHTML = "JS is easy.";
+            }
+            document.write(1+4);
+            alert('You are YOU');
+            function voting(){
+                const n = document.getElementById("nation").value;
+                if(n=='indian'){
+                    document.getElementById("para").innerHTML="You are indian";
+                }else{
+                    alert("You must be Indian");
+                }
+            }
+        </script>
+        <p id="para">1</p>
+        <input id="nation" placeholder="Enter your Nation"></input>
+        <button onclick="voting()">Enter</button>
+        <p id="demo">NEW TO JS</p>
+        <button onclick="document.getElementById('image').src='pic_bulbon.gif'">TURN ON</button>
+        <img id="image" src="pic_bulboff.gif" style="width:100px">
+        <button onclick="document.getElementById('image').src='pic_bulboff.gif'">TURN OFF</button>
+        <button onclick="myFunction()">CLICK HERE</button>
+        <button onclick="document.write('INDIA')">CLICK</button>
+        <button onclick="window.print()">Print</button>
+        <br><br>
+    </body>
+</html>
